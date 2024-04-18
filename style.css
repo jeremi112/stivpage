@@ -562,6 +562,11 @@ footer .parent .li ul{
     color: white;
     z-index: 10;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.copyright p{
+    padding: 5vh;
 }
 
 
@@ -693,7 +698,7 @@ footer .parent .li ul{
         margin-top: 5vh;
     }
     footer{
-        height: 120vh;
+        height: 110vh;
     }
     footer .parent{
         flex-direction: column;
