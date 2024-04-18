@@ -54,6 +54,10 @@ nav{
     margin: 0 auto; 
     padding-top: 10vh;   
 }
+button{
+    transition: 0.5s;
+
+}
 nav div{
     flex-grow: 2;
 }
@@ -76,6 +80,7 @@ nav ul li{
      /* margin: 0 auto; */
      border-color:white;
      border-style: solid;
+     transition: 0.5s;
 
 }
 nav ul li:hover{
@@ -170,7 +175,8 @@ main{
     cursor: pointer;
     background-color: var(--seconary-color);
     color: var(--primrary-color);
-  
+    transition: 0.5s;
+    
 }
 .main1 .content .btn button:hover{
     background-color: var(--primrary-color);
