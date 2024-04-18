@@ -556,6 +556,13 @@ footer .parent .li ul{
     padding: 0;
     
 }
+.copyright{
+    width: 100%;
+    background-color: var(--seconary-color);
+    color: white;
+    z-index: 10;
+    text-align: center;
+}
 
 
 @media screen and (max-width:1100px){
