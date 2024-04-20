@@ -39,6 +39,7 @@ p{
 li{
     font-family: "Jersey 20", sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -82,6 +83,14 @@ nav ul li{
      border-style: solid;
      transition: 0.5s;
 
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: var(--primrary-color);
 }
 nav ul li:hover{
     border-color:black;
@@ -155,6 +164,7 @@ main{
     text-align: center;
 }
 
+
 .main1 .content img{
     width: 500px;
 }
@@ -178,10 +188,17 @@ main{
     transition: 0.5s;
     
 }
+.main1 .content .btn button a{
+    color: white;
+    text-decoration: none;
+}
 .main1 .content .btn button:hover{
     background-color: var(--primrary-color);
     color: var(--seconary-color);
 }
+/* .main1 .content .btn button a{
+    color: var(--seconary-color);
+} */
 
 
 
@@ -253,6 +270,10 @@ main{
     cursor: pointer;
     border-color: black;
     border-style: solid;
+}
+.main2 .main2-sec .sec-left button a{
+    color: black;
+    text-decoration: none;
 }
 .main2 .main2-sec .sec-left button:hover{
     background-color: var(--seconary-color);
@@ -544,6 +565,9 @@ footer .parent .li button{
     color: var(--seconary-color);
     border-color: black;
     border-style: solid;
+}
+footer .parent .li button a{
+    text-decoration: none;
 }
 footer .parent .li button:hover{
     background-color: var(--seconary-color);

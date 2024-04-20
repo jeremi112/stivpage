@@ -44,6 +44,10 @@
     color: var(--primrary-color);
     border-color: var(--primrary-color);
 }
+.flex-ham ul li a{
+color: black;
+text-decoration: none;
+}
 .flex-ham ul li:hover{
     color: var(--seconary-color);
     border-color: var(--seconary-color);
